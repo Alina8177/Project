@@ -204,6 +204,18 @@ body {
   border-radius: 50%;
   box-shadow: 0 0 30px #00bcd4;
 }
+.rotate {
+  animation: animate 4s ease-in-out infinite;
+  animation-delay: calc(-0.2s * var(--j));
+}
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
 
 h1 {
