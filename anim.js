@@ -1,27 +1,4 @@
 
-var canvas = document.querySelector("#canvas"),
-    ctx = canvas.getContext('2d');
-
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
-
-var config = {
-  particleNumber: 800,
-  maxParticleSize: 10,
-  maxSpeed: 40,
-  colorVariation: 50
-};
-
-var colorPalette = {
-    bg: {r:12,g:9,b:29},
-    matter: [
-      {r:36,g:18,b:42}, 
-      {r:78,g:36,b:42}, 
-      {r:252,g:178,b:96}, 
-      {r:253,g:238,b:152} 
-    ]
-};
-
 var particles = [],
     centerX = canvas.width / 2,
     centerY = canvas.height / 2,
