@@ -1,14 +1,4 @@
 
-var particles = [],
-    centerX = canvas.width / 2,
-    centerY = canvas.height / 2,
-    drawBg,
-
-drawBg = function (ctx, color) {
-    ctx.fillStyle = "rgb(" + color.r + "," + color.g + "," + color.b + ")";
-    ctx.fillRect(0,0,canvas.width,canvas.height);
-};
-
 
 var Particle = function (x, y) {
     this.x = x || Math.round(Math.random() * canvas.width);
