@@ -131,7 +131,7 @@ input[type="submit"],
 }
 .footer__icons {
   display: flex;
-  background-color: #14aea2;
+  background-color: none;
   flex-direction: row;
 }
 .menuCircle {
