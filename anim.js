@@ -7,3 +7,4 @@ $("loader").click(function(){
         clicked  = true;
     }   
 });
+console.log('loader', $("loader"))
